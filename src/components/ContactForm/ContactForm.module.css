@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 40px;
+    background: rgb(247 245 255);
+    color: rgb(60 72 170);
+    align-items: center;
+    /* width: 788px; */
+}
+
+.field {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: none;
+}
+
+.label {
+    padding-right: 20px;
+    cursor: default;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.error {
+    color: #fc5703;
+    font-size: 25px;
+}

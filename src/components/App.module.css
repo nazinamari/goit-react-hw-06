@@ -1,0 +1,94 @@
+:root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    background: #e6e8fc;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 5.2em;
+    line-height: 1.1;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    background-color: #6974ca;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(105 116 202);
+    cursor: pointer;
+    font-size: 28px;
+    transition: border-color 0.25s;
+    height: 100%;
+    width: 200px;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.wrapPhoneBook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+}
+
+.section {
+    width: 788px;
+}
+
+input {
+    font-size: 40px;
+    border: 1px solid rgb(105 116 202);
+    border-radius: 4px;
+    height: 100%;
+    color: #333;
+    background: #edefff;
+    padding: 10px;
+    transition: border-color 0.25s;
+}
+
+.header {
+    padding: 8px;
+}

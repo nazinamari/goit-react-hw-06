@@ -1,0 +1,18 @@
+.list {
+    /* background: #f7f5ff; */
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+    max-width: 100%;
+    /* width: 788px; */
+}
+
+.item {
+    border-radius: 8px;
+    background: #f7f5ff;
+    border: 1px solid rgb(154 154 154);
+    padding: 20px;
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    border: none;
+}

@@ -1,0 +1,23 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    color: #333;
+    border-radius: 4px;
+    /* width: 788px; */
+}
+.contact {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.name,
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20px;
+}
